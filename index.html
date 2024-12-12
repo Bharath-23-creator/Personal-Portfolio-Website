@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesonal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm Bharath Gajjela <br>From India</br></h1>
+            </div>
+        </div>
+    </div>
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1"><img src="images/user2.png" alt=""></div>
+            <div class="about-col-2"><h1 class="sub-title">About Me</h1><p>Hi, I'm Bharath, a passionate Full Stack Web Developer with a strong foundation in both front-end and back-end technologies. I specialize in building responsive, scalable, and user-friendly web applications that solve real-world problems. With a love for clean, maintainable code and a focus on continuous learning, I thrive in dynamic environments where I can contribute to all stages of development—from conceptualization to deployment.</p>
+            <div class="tab-titles">
+             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+             <p class="tab-links" onclick="opentab('experience')">Experience</p>
+             <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Web Development</span><br>Creating Responsive Websites</br></li>
+                  <li><span>AI</span><br>Working With Latest AI Tools</br></li>
+                  <li><span>UI/UX</span><br>Web Designing/App Designing</br></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2022</span><br>Joined Bachelor's Of Computer Science Engineering</br></li>
+                  <li><span>2023</span><br>Choosen Web Development as Main Stream Course</br></li>
+                  <li><span>2024-Present</span><br>Learning Tech Skills And Working on Real Time Applications</br></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2022</span><br>Joined SR University</br></li>
+                  <li><span>2023</span><br>Under Grad SRU</br></li>
+                  <li><span>2024-Present</span><br>Upgrading My Skills To Crack A Job of High Package</br></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+  </div> 
+  <div id="services">
+    <div class="container">
+       <h1 class="sub-title">My Services</h1>
+       <div class="services-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+                Web Development refers to the process of building and maintaining websites and web applications. It involves a variety of tasks and skills, from designing the layout of a site to ensuring its functionality, user experience, and security.</p>
+           <a href="#">Learn more</a>
+           </div>
+           <div>
+            <i class="fa-solid fa-microchip"></i>
+            <h2>AI</h2>
+            <p>
+                Artificial Intelligence (AI) refers to the branch of computer science that focuses on creating machines or systems capable of performing tasks that would typically require human intelligence. These tasks include reasoning, learning, problem-solving, understanding language, recognizing patterns, and making decisions. AI systems aim to simulate or mimic human cognitive abilities, allowing machines to think, learn, and adapt in ways that resemble human thinking.</p>  
+                <a href="#">Learn more</a>                   
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Designing</h2>
+                <p>UI/UX Design refers to the processes involved in creating user-centered designs for digital interfaces and experiences, aiming to ensure that products are intuitive, aesthetically pleasing, and functionally effective. UI (User Interface) and UX (User Experience) are distinct but closely related disciplines in the design of digital products like websites, mobile apps, and software applications.</p>   
+                <a href="#">Learn more</a>                  
+                </div>
+       </div>
+    </div>
+  </div>
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/clothing.png">
+                <div class="layer">
+                    <h3>Clothing Website</h3>
+                    <p>Welcome to Rare Rabbit Clothing Store, your ultimate destination for stylish, high-quality fashion. We offer a curated collection of clothing designed to elevate your wardrobe for every occasion. Whether you're seeking everyday essentials, trendy pieces, or statement outfits, our collection is crafted to fit your unique style and personality.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/AI.png">
+                <div class="layer">
+                    <h3>Advanced AI</h3>
+                    <p>
+                        Introducing Advanced AI, your intelligent companion powered by cutting-edge artificial intelligence. Whether you're looking to streamline your daily tasks, enhance productivity, or explore new ideas, Advanced AI offers smart solutions that adapt to your needs.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/UI.png">
+                <div class="layer">
+                    <h3>Daily UI/UX</h3>
+                    <p>At Daily UI/UX, we provide fresh, creative prompts every day to help designers, developers, and creatives level up their UI and UX skills. Whether you’re a beginner eager to learn the basics or an experienced designer looking for new challenges, our platform offers daily design exercises that push the boundaries of user interface and experience design.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+  <div id="contact">
+    <div class="container"><div class="row">
+        <div class="contact-left">
+            <div class="sub-title">Contact Me</div>
+            <p><i class="fa-solid fa-paper-plane"></i> bharathgajjela01@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9398**6362</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="images/My-CV Download.pdf" download class="btn btn2">Download CV</a>
+        </div>
+     
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>
+        © 2024  Technologies Pvt.Limited. All rights reserved.</p>
+</div>
+</div>
+  <script src="app.js"></script> 
+</body>
+</html>
